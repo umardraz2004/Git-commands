@@ -1,0 +1,29 @@
+1|git config --global user.name
+2|git config --global user.email
+ |code .
+3|git init is used to initailzed our repository
+4|git add to add file
+5|git add -A to add all files
+6|git commit to commit staged file
+7|touch cmd to create files 	
+8|To commit in one line we use git commit -m "Something"
+9|git checkout filename.extention to recover the previous input. (its for one file only)
+10|git checkout filename.exe -f to recover multiple 
+11|git log to check what you have done already
+12|git diff to find the line in which you change something
+13|git diff --staged compared with last one
+14|git commit -a -m to direct commit a file without staged
+  |ls to list files
+15|To remove file we use git rm but using this cmd caused removed file from stagging too
+16|If we want to prevent that use git rm --chached.
+17|git status -s 
+18|touch .gitignore to generate a ingonre file 
+19|Puch mean send data to server and pull mean get data from server.
+20|To create a branch we use git branch {branch name}
+21|To check branch we use git branch
+22|To switch branches we use git checkout {branch name}
+23|If you want to create a new branch and at the same time you want to switch to it we use git checkout -b {branch name}
+24|git push -u origin master
+25|git remote 
+26|git remote set-url origin {}
+27|git remote -v
