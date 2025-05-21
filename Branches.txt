@@ -1,0 +1,13 @@
+Make new branch and push code to it:
+- # Make sure you're on the main branch
+- git checkout main
+
+- # Pull latest changes (optional but good practice)
+- git pull origin main
+
+- # Create and switch to new branch (this copies all from main)
+- git checkout -b your-new-branch-name
+
+- # While on the new branch
+- git merge main
+
